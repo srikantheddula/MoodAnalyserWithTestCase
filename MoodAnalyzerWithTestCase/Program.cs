@@ -6,7 +6,9 @@ namespace MoodAnalyzerWithTestCase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the MoodAnalyzer with test case");
+            Console.WriteLine("Welcome to the Moodanalyzer with test case");
+            MoodAnalyser moodAnalyzer = new MoodAnalyser(); //Creating object for a class
+            moodAnalyzer.DisplayMoodAnalyzer("I am in Happy mood");
         }
     }
 }
